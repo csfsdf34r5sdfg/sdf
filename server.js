@@ -6,7 +6,7 @@ const uri = "mongodb+srv://coraq:Minimum90@cluster0.vhjnf8t.mongodb.net/?retryWr
 
 const express = require('express');
 const app = express();
-const port = 3000; // Možete promijeniti na željeni port
+const port = 80; // Možete promijeniti na željeni port
 
 // Postavite direktorij za statičke datoteke (npr. CSS, JavaScript, slike)
 app.use(express.static('public'));
